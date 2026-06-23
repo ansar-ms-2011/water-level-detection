@@ -1,0 +1,8 @@
+path: D:/PythonProjects/Demo1/datasets/water_data  # Absolute path to your dataset
+train: images/train  
+val: images/val    
+
+# Defining the classes for our unified water gauge algorithm
+names:
+  0: dry_guage
+  1: wet_guage

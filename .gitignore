@@ -1,0 +1,37 @@
+# --- Python Environment ---
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# --- IDE and Editor Configurations ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Ultralytics & Machine Learning Outputs ---
+# Blocks your training runs, logs, plots, and weight checkpoints from being uploaded
+runs/
+*.pt
+*.onnx
+*.engine
+.rasterio/
+Arial.ttf
+
+# --- Dataset and Local Media ---
+# Keeps your heavy raw datasets and training images local
+datasets/
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.avi
+
+# --- System and OS Files ---
+Thumbs.db
+Desktop.ini
+.DS_Store
